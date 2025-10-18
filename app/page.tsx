@@ -1,0 +1,160 @@
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-white text-gray-900">
+      {/* Hero Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="max-w-4xl mx-auto text-center">
+          <img 
+            src="/profile.jpeg" 
+            alt="Alex Naveh"
+            className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
+          />
+          <h1 className="text-5xl font-bold mb-4">Alex Naveh</h1>
+          <p className="text-2xl text-gray-600 mb-8">Web Developer</p>
+          <div className="flex gap-4 justify-center">
+            <a 
+              href="https://www.github.com/alexnaveh" 
+              target="_blank"
+              className="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
+            >
+              GitHub
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/alexzhivot/" 
+              target="_blank"
+              className="px-6 py-3 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-100 transition"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="container mx-auto px-4 py-20 bg-gray-50">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6">About Me</h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            I'm a web developer passionate about creating clean, efficient, and user-friendly applications. 
+            With a focus on modern web technologies, I enjoy turning ideas into functional and visually 
+            appealing digital experiences.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            When I'm not coding, I'm exploring new frameworks and tools to continuously improve my craft 
+            and stay up-to-date with industry best practices.
+          </p>
+        </div>
+      </section>
+
+      {/* Skills Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">React</p>
+            </div>
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">Next.js</p>
+            </div>
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">TypeScript</p>
+            </div>
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">Tailwind CSS</p>
+            </div>
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">JavaScript</p>
+            </div>
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">HTML/CSS</p>
+            </div>
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">Git</p>
+            </div>
+            <div className="p-4 bg-gray-100 rounded-lg text-center">
+              <p className="font-semibold">Node.js</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section className="container mx-auto px-4 py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
+          
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-3">Project Name</h3>
+              <p className="text-gray-700 mb-4">
+                A brief description of your project. Explain what it does, what technologies 
+                you used, and what problems it solves. Keep it concise but informative.
+              </p>
+              <div className="flex gap-3 mb-4">
+                <span className="px-3 py-1 bg-gray-200 rounded-full text-sm">React</span>
+                <span className="px-3 py-1 bg-gray-200 rounded-full text-sm">Next.js</span>
+                <span className="px-3 py-1 bg-gray-200 rounded-full text-sm">Tailwind</span>
+              </div>
+              <div className="flex gap-4">
+                <a 
+                  href="PROJECT_GITHUB_URL" 
+                  target="_blank"
+                  className="text-gray-900 hover:underline font-semibold"
+                >
+                  View Code →
+                </a>
+                <a 
+                  href="PROJECT_LIVE_URL" 
+                  target="_blank"
+                  className="text-gray-900 hover:underline font-semibold"
+                >
+                  Live Demo →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
+          <p className="text-lg text-gray-700 mb-8">
+            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          </p>
+          <a 
+            href="mailto:alexnaveh7@gmail.com"
+            className="inline-block px-8 py-4 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition text-lg font-semibold"
+          >
+            Contact Me
+          </a>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-8">
+        <div className="container mx-auto px-4 text-center">
+          <p className="mb-4">© 2025 Alex Naveh. All rights reserved.</p>
+          <div className="flex gap-6 justify-center">
+            <a 
+              href="https://www.github.com/alexnaveh" 
+              target="_blank"
+              className="hover:text-gray-300 transition"
+            >
+              GitHub
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/alexzhivot/" 
+              target="_blank"
+              className="hover:text-gray-300 transition"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  );
+}
