@@ -1,14 +1,18 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <img 
-            src="/profile.jpeg" 
-            alt="Alex Naveh"
-            className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
-          />
+        <Image 
+          src="/profile.jpeg" 
+          alt="Alex Naveh"
+          width={128}
+          height={128}
+          className="rounded-full mx-auto mb-6 object-cover"
+        />
           <h1 className="text-5xl font-bold mb-4">Alex Naveh</h1>
           <p className="text-2xl text-gray-600 mb-8">Web Developer</p>
           <div className="flex gap-4 justify-center">
@@ -35,12 +39,12 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            I'm a web developer passionate about creating clean, efficient, and user-friendly applications. 
+            I&apos;m a web developer passionate about creating clean, efficient, and user-friendly applications. 
             With a focus on modern web technologies, I enjoy turning ideas into functional and visually 
             appealing digital experiences.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            When I'm not coding, I'm exploring new frameworks and tools to continuously improve my craft 
+            When I&apos;m not coding, I&apos;m exploring new frameworks and tools to continuously improve my craft 
             and stay up-to-date with industry best practices.
           </p>
         </div>
@@ -122,7 +126,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
           <p className="text-lg text-gray-700 mb-8">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           </p>
           <a 
             href="mailto:alexnaveh7@gmail.com"
