@@ -23,7 +23,7 @@ export default function Home() {
               href="https://www.github.com/alexnaveh" 
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
+              className="text-gray-700 hover:text-gray-900 transition-all hover:scale-120"
               aria-label="GitHub"
             >
               <FaGithub size={32} />
@@ -32,14 +32,14 @@ export default function Home() {
               href="https://www.linkedin.com/in/alexzhivot/" 
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-gray-700 hover:text-blue-600 transition-all hover:scale-120"
               aria-label="LinkedIn"
             >
               <FaLinkedin size={32} />
             </a>
             <a 
               href="mailto:alexnaveh7@gmail.com"
-              className="text-gray-700 hover:text-red-600 transition-colors"
+              className="text-gray-700 hover:text-red-600 transition-all hover:scale-120"
               aria-label="Email"
             >
               <MdEmail size={32} />
