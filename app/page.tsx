@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 export default function Home() {
   return (
@@ -14,21 +16,33 @@ export default function Home() {
           className="rounded-full mx-auto mb-6 object-cover"
         />
           <h1 className="text-5xl font-bold mb-4">Alex Naveh</h1>
-          <p className="text-2xl text-gray-600 mb-8">Web Developer</p>
-          <div className="flex gap-4 justify-center">
+          <p className="text-2xl text-gray-600 mb-8">Fullstack Developer</p>
+          {/* Social Links with Icons */}
+          <div className="flex gap-6 justify-center mb-8">
             <a 
               href="https://www.github.com/alexnaveh" 
               target="_blank"
-              className="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-gray-900 transition-colors"
+              aria-label="GitHub"
             >
-              GitHub
+              <FaGithub size={32} />
             </a>
             <a 
               href="https://www.linkedin.com/in/alexzhivot/" 
               target="_blank"
-              className="px-6 py-3 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-100 transition"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-blue-600 transition-colors"
+              aria-label="LinkedIn"
             >
-              LinkedIn
+              <FaLinkedin size={32} />
+            </a>
+            <a 
+              href="mailto:alexnaveh7@gmail.com"
+              className="text-gray-700 hover:text-red-600 transition-colors"
+              aria-label="Email"
+            >
+              <MdEmail size={32} />
             </a>
           </div>
         </div>
@@ -126,7 +140,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
           <p className="text-lg text-gray-700 mb-8">
-            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            Im always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           </p>
           <a 
             href="mailto:alexnaveh7@gmail.com"
