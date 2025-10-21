@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Tools
 this portfolio build using 
 
-- library : React(19.1.0)
+- library : React(19.1.0)go
 - frameworks : Next.js(15.5.6), TailwindCSS(^4)
 - language : TypeScript(^5)
 - icons : react-icons
